@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Nos Abonnements</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align:center; padding:50px; }
+    h1 { color: #333; }
+    .pricing-table-container { max-width: 600px; margin: auto; }
+  </style>
+</head>
+<body>
+  <h1>Nos Abonnements Stripe</h1>
+
+  <div class="pricing-table-container">
+    <!-- Grille Stripe -->
+    <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+    <stripe-pricing-table 
+      pricing-table-id="prctbl_1SWxvmBK4d5fpOVfWZMsqbgk"
+      publishable-key="pk_live_51O02R3BK4d5fpOVfByEvgW5HDr33mWycK8Az8flMP9nG4GcFYhCQBE0A9cbfQBntcU9khjlDwa120Jhbv721TKTu004EbgprsS">
+    </stripe-pricing-table>
+  </div>
+</body>
+</html>
